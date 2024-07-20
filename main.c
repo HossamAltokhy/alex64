@@ -13,7 +13,7 @@ struct node* push(int data);
 void peek();
 int stack_pop();
 
-
+void added_feature();
 
 
 
@@ -33,7 +33,9 @@ int main()
 }
 
 
-
+void added_feature(){
+    // write code here
+}
 
 struct node* createNode(int data)
 {
