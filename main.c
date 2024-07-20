@@ -10,7 +10,7 @@ struct node
 
 struct node* createNode(int data);
 struct node* push(int data);
-peek();
+void peek();
 int stack_pop();
 
 
@@ -26,6 +26,7 @@ int main()
     push(2);
     push(10);
 
+    for( ;stack_pop()!=9;);
 
 
     return 0;
